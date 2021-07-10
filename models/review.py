@@ -7,7 +7,7 @@ from models.base_model import BaseModel
 
 class Review (BaseModel):
     '''
-        Represents Class Review  with public class attributes
+        Represents Class Review  with public class attribute
     '''
     place_id = ""
     user_id = ""
