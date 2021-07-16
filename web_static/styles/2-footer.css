@@ -1,1 +1,14 @@
-
+footer{
+ background: #00FF00;
+ position: relative;
+ margin-top:81.5vh;
+ height: 60px; width: 100% 
+        
+}
+footer div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    } 
