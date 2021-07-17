@@ -1,0 +1,20 @@
+.places{
+    margin-top: 20px;
+}
+.places .title{
+    font-size: 30px;
+}
+.places .places-continer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.places article{
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px #FF5A5A solid;
+    border-radius: 4px;
+    text-align: center;
+}
