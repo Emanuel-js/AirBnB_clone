@@ -1,0 +1,86 @@
+section.filters{
+display: flex;
+height: 70px;
+width: 100%;
+border: 1px solid #DDDDDD;
+border-radius: 4px;
+justify-content: space-between;
+align-content: space-between;
+z-index: 9999;
+}
+.search-btn{
+    font-size: 18px;
+    background: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    margin: auto 30px;
+    opacity: 90%;
+    
+   
+}
+section.filters h3{
+  font-weight: 600;  
+}
+section.filters h4{
+    font-weight: 400;  
+    font-size: 14px;
+  }
+.locations{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+    height: 100%;
+    width: 25%;
+    margin-left: 30px;
+    align-self: center;
+    border-right: 1px #DDDDDD solid;
+}
+.amenities{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+    height: 100%;
+    width: 25%;
+}
+
+
+.popover{
+  display: flex;
+  color: #FAFAFA;  
+  align-items: center;
+  border-radius: 4px;
+}
+.open-location,.open-amenities{
+visibility: hidden;
+}
+section.filters:hover + .popover .open-location{
+visibility: visible;
+cursor: pointer;
+}
+.filters:hover + .popover .open-amenities{
+visibility: visible;
+  cursor: pointer;
+  }
+.popover .menu{
+  display: flex;
+  width: 241px;
+  color: #111;
+  border: 1px #DDDDDD solid;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.menu li{
+  list-style: none;
+}
+.menu h2{
+  font-size: 16px;
+}
+
